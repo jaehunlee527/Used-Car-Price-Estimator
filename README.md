@@ -1,6 +1,8 @@
 ## Used Car Price Listing Scraper & Price Prediction ##
 
-[Intro](###Intro)
+* [Intro](###Intro)
+* [Data Source](###Data Source)
+* [Summary](###Summary)
 
 ### Intro
 
