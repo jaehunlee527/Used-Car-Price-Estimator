@@ -18,10 +18,19 @@ All of the data has been scraped from [Cargurus](cargurus.com). It is one of the
 
 ### Summary
 
-The project consists of two parts:
+The project consists of three parts:
 
 **1) Scraper that gathers listings of used and new cars**
 
-**2) Feature Engineering, Model Training & Analysis of the Model Performances**
+**2) Feature Engineering, Model Training**
+* Linear Regression
+* Polynomial Regression
+* Random Forest Regressor
+* XGB Regressor
+* Multilayer Perceptron
+
+**3) Model Performance Analysis**
+
+### Scraper 
 
 
