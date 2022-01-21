@@ -32,11 +32,10 @@ The project consists of three parts:
 
 **3) Model Performance Analysis**
 
+&nbsp;
+
 ### Web Scraper 
 
-**Used Car Scraper**
-The goal is to collect used car listings on Cargurus. We would like our lists to include the inventories of various brands, models, types and seller states.
-First, using [uszipcode API](https://uszipcode.readthedocs.io/index.html), generate shuffled list of zipcodes of largest states in the U.S by population. The assumption is that in the areas with greater population, we will observe more supplies of automobiles with diverse types. It fetches information of automobiles listed on each search page. In my notebook, I searched 1000 pages.
+**Used Car Scraper:** The goal is to collect used car listings on Cargurus. We would like our lists to include the inventories of various brands, models, types and seller states. First, using [uszipcode API](https://uszipcode.readthedocs.io/index.html), generate shuffled list of zipcodes of largest states in the U.S by population. The assumption is that in the areas with greater population, we will observe more supplies of automobiles with diverse types. It fetches information of automobiles listed on each search page. In my notebook, I searched 1000 pages.
 
-**MSRP Scraper**
-Later I realized that nearly 70% of the inventories were missing the MSRP (manufacturer's suggested retail price) which is crucial in estimating our target. Accordingly, I added a scraper function that fetches MSRP for each model. 
+**MSRP Scraper:** Later I realized that nearly 70% of the inventories were missing the MSRP (manufacturer's suggested retail price) which is crucial in estimating our target. Accordingly, I added a scraper function that fetches MSRP for each model. 
