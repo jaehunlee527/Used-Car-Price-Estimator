@@ -79,6 +79,7 @@ For columns with fewer unique values - transmission, body type - I used one hot 
 
 Out of 5 models trained, XGB Regressor displayed the best performances after hyper parameter tuning.
 
+&nbsp;
 | Model | Mean Squared Error | Mean Absolute Error |
 |---|---|---|
 | Linear Regression | | |
