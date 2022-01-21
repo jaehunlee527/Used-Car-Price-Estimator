@@ -15,7 +15,7 @@ From the onset of Coronavirus pandemic, the U.S used car market has seen unprece
 ### Data 
 
 All of the data has been scraped from [Cargurus](cargurus.com). It is one of the most widely used platforms for buying/selling used cars. 
-Each row of the training data consists of 38 feature columns and 1 target (Listed Price). Features include basic information about the vehicle including Model ID, MSRP, body type, transmission, include options and etc. 
+Each row of the training data consists of 28 features and 1 target (Listed Price). Features include basic information about the vehicle including Model ID, MSRP, body type, transmission, include options and etc. 
 
 ### Summary
 
@@ -40,5 +40,15 @@ The project consists of three parts:
 **MSRP Scraper:** Later I realized that nearly 70% of the inventories were missing the MSRP (manufacturer's suggested retail price) which is crucial in estimating our target. Accordingly, I added a scraper function that fetches MSRP for each model. 
 
 ### EDA
+
+&nbsp;
+<p align="center">
+  <img src="images/used_car_range.JPG" width="700" height="350">
+</p>
+
+&nbsp;
+<p align="center">
+  <img src="images/used_car_corr.JPG" width="800" height="500">
+</p>
 
 ### Feature Engineering
