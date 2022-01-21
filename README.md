@@ -76,3 +76,15 @@ For columns with fewer unique values - transmission, body type - I used one hot 
 ----
 
 ### Models
+
+Out of 5 models trained, XGB Regressor displayed the best performances after hyper parameter tuning.
+
+| Model | Mean Squared Error | Mean Absolute Error
+| Linear Regression | | |
+
+### XGB Model Performance
+
+&nbsp;
+<p align="center">
+  <img src="images/used_car_prediction.JPG" width="700" height="400">
+</p>
