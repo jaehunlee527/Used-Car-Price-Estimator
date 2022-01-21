@@ -43,12 +43,12 @@ The project consists of three parts:
 
 &nbsp;
 <p align="center">
-  <img src="images/used_car_range.JPG" width="600" height="300">
+  <img src="images/used_car_range.JPG" width="800" height="400">
 </p>
 
 &nbsp;
 <p align="center">
-  <img src="images/used_car_corr.JPG" width="600" height="300">
+  <img src="images/used_car_corr.JPG" width="800" height="600">
 </p>
 
 ### Feature Engineering
