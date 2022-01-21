@@ -40,7 +40,7 @@ The project consists of three parts:
 ### Web Scraper 
 **Used Car Scraper:** The goal is to collect used car listings on Cargurus. We would like our lists to include the inventories of various brands, models, types and seller states. First, using [uszipcode API](https://uszipcode.readthedocs.io/index.html), generate shuffled list of zipcodes of largest states in the U.S by population. The assumption is that in the areas with greater population, we will observe more supplies of automobiles with diverse types. It fetches information of automobiles listed on each search page. In my notebook, I searched 1000 pages (1000 different zipcode searches). The gathered data had a size of total 25,000 vehicles.
 
-**MSRP Scraper:** Later I realized that nearly 70% of the inventories were missing the MSRP (manufacturer's suggested retail price) which is crucial in estimating our target. Accordingly, I added a scraper function that fetches MSRP for each model. 
+**MSRP Scraper:** Later I realized that nearly 70% of the inventories were missing the MSRP (manufacturer's suggested retail price) which is crucial in estimating the target. Accordingly, I added a scraper function that fetches MSRP for each model. 
 
 ----
 
@@ -63,5 +63,11 @@ What is also interesting about the plot above is the rectangle of blue in the bo
 
 ----
 
-### Feature Engineering
+### Imputation
+
+MSRP is the most important factor in price estimator, yet a lot of rows were missing this piece - 70% of the used car listings did not have MSRP filled out. With MSRP scraper, I gathered MSRP lists of each model and filled these entries. For the still missing rows, I used the mean MSRP value with respect to the model. These steps reduced the missing ratio to below 0.5%.  
+
+For missing cateogrical features (Body Type & Fuel Type), they have been filled with the most frequent value with respect to the model ID. For numerical features (Owner Count & Accident Count), I filled in with the average values based on the YearOld feature since we would expect the number of previous owners and accident counts to increase proportionately as the cars become older.  
+
+### Encoding
 
