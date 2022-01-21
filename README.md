@@ -1,7 +1,5 @@
 ## Used Car Price Listing Scraper & Price Prediction ##
 
-[Introduction](###-introduction)
-
 ### Introduction ###
 From the onset of Coronavirus pandemic, the U.S used car market has seen unprecedented rate of increase in the second hand automobiles’ prices. This phenomenon is mainly attributed to two causes: decreased production by automakers due to microchip shortages and increased demand from consumers returning to work. With prices still surging fast, buying a car has become more difficult, as knowing the benchmark price is harder; I decided to build a price estimator for the potential buyers in the market who wish to know the base price for particular model and mileage.
 
@@ -69,5 +67,12 @@ MSRP is the most important factor in price estimator, yet a lot of rows were mis
 
 For missing cateogrical features (Body Type & Fuel Type), they have been filled with the most frequent value with respect to the model ID. For numerical features (Owner Count & Accident Count), I filled in with the average values based on the YearOld feature since we would expect the number of previous owners and accident counts to increase proportionately as the cars become older.  
 
+----
+
 ### Encoding
 
+For columns with fewer unique values - transmission, body type - I used one hot encoding. For all the other categorical columns, target encoder has been used, as they displayed clear correlations with the listed price.
+
+----
+
+### Models
