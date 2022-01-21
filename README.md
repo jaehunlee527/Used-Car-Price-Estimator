@@ -16,11 +16,11 @@ From the onset of Coronavirus pandemic, the U.S used car market has seen unprece
   <em>Source: cargurus.com</em>
 </p>
 
-### Data Source ###
+### Data Source
 
 All of the data has been scraped from [Cargurus](cargurus.com). It is one of the most widely used platforms for buying/selling used cars. 
 
-### Summary ###
+### Summary
 
 The project consists of two parts:
 
