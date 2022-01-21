@@ -82,6 +82,10 @@ Out of 5 models trained, XGB Regressor displayed the best performances after hyp
 | Model | Mean Squared Error | Mean Absolute Error |
 |---|---|---|
 | Linear Regression | | |
+| Polynomial Regression | | |
+| Random Forest Regressor | | |
+| XGB Regressor | | |
+| Multilayer Perceptron | | |
 
 ### XGB Model Performance
 
