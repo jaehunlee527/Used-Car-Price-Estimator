@@ -48,7 +48,7 @@ The project consists of three parts:
 
 &nbsp;
 <p align="center">
-  <img src="images/used_car_corr.JPG" width="800" height="600">
+  <img src="images/used_car_corr.JPG" width="900" height="600">
 </p>
 
 ### Feature Engineering
