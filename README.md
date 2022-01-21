@@ -46,6 +46,8 @@ The project consists of three parts:
   <img src="images/used_car_range.JPG" width="700" height="350">
 </p>
 
+We can see that the price range is centered around $30,000 with mean price of $32,000 and median price of $29,500.
+
 &nbsp;
 <p align="center">
   <img src="images/used_car_corr.JPG" width="800" height="500">
