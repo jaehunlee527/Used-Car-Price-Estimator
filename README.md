@@ -100,12 +100,16 @@ Out of 5 models trained, XGB Regressor displayed the best performances after hyp
 
 Even our best predicting model demonstrates substantial deviations in price estimation. In fact, the degree of deviance also varied by brands and body types.  
 
+&nbsp;
+
 | Brands | Mean Absolute Error % |
 |:-:|:-:|
 | Toyota | 6.59% |
 | Nissan | 7.10% |
 | Ford | 9.42% |
 | Chevrolet | 7.72% |
+
+&nbsp;
 
 ### Conclusion & Take Away
 
