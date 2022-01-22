@@ -98,9 +98,16 @@ Out of 5 models trained, XGB Regressor displayed the best performances after hyp
   <img src="images/used_car_prediction.PNG" width="700" height="400">
 </p>
 
+Even our best predicting model demonstrates substantial deviations in price estimation. In fact, the degree of deviance also varied by brands and body types.  
+
 | Brands | Mean Absolute Error % |
 |:-:|:-:|
 | Toyota | 6.59% |
 | Nissan | 7.10% |
 | Ford | 9.42% |
 | Chevrolet | 7.72% |
+
+### Conclusion & Take Away
+
+The most challenging aspect in the used car price esimation was absence of MSRP. Although I used MSRP scraper and mean of MSRP by each model, the retail price also varies widely by the packages and options included in the trim, as well as the production year; I made an assumption that each model of the vehicle should have same/similar MSRP. With more precise MSRP data, our model will certainly show higher precision.
+
