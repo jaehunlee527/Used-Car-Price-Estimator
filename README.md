@@ -81,7 +81,7 @@ Out of 5 models trained, XGB Regressor displayed the best performances after hyp
 
 &nbsp;
 | Model | R^2 | Mean Absolute Error |
-|---|---|---|
+|:-:|---|:-:|
 | Linear Regression | 0.616 | 4664 |
 | Polynomial Regression | 0.768 | 3745 |
 | Random Forest Regressor | 0.749 | 2898 |
