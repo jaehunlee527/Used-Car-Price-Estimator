@@ -87,10 +87,11 @@ Out of 5 models trained, XGB Regressor displayed the best performances after hyp
 | Random Forest Regressor | 0.749 | 2898 |
 | XGB Regressor | 0.788 | 2791 |
 | Multilayer Perceptron | 0.456 | 3794 |
+&nbsp;
   
 ### XGB Model Performance
 
 &nbsp;
 <p align="center">
-  <img src="images/used_car_prediction.JPG" width="700" height="400">
+  <img src="images/used_car_prediction.JPG" width="700" height="350">
 </p>
