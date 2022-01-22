@@ -95,5 +95,5 @@ Out of 5 models trained, XGB Regressor displayed the best performances after hyp
 
 &nbsp;
 <p align="center">
-  <img src="images/used_car_prediction.JPG" width="700" height="350">
+  <img src="images/used_car_prediction.PNG" width="700" height="350">
 </p>
