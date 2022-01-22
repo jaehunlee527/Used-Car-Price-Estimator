@@ -80,15 +80,13 @@ For columns with fewer unique values - transmission, body type - I used one hot 
 Out of 5 models trained, XGB Regressor displayed the best performances after hyper parameter tuning.
 
 &nbsp;
-<p align="center">
-  | Model | Mean Squared Error | Mean Absolute Error |
-  |---|---|---|
-  | Linear Regression | | |
-  | Polynomial Regression | | |
-  | Random Forest Regressor | | |
-  | XGB Regressor | | |
-  | Multilayer Perceptron | | |
-</p>
+| Model | R^2 | Mean Absolute Error |
+|---|---|---|
+| Linear Regression | 0.616 | 4664 |
+| Polynomial Regression | 0.768 | 3745 |
+| Random Forest Regressor | 0.749 | 2898 |
+| XGB Regressor | 0.788 | 2791 |
+| Multilayer Perceptron | 0.456 | 3794 |
   
 ### XGB Model Performance
 
